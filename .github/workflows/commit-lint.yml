@@ -19,7 +19,7 @@ jobs:
         id: lint_pr_title
         uses: amannn/action-semantic-pull-request@v5
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           validateSingleCommit: true
           validateSingleCommitMatchesPrTitle: true
