@@ -1,0 +1,3 @@
+pip install -U commitizen
+
+pip install pre-commit 
